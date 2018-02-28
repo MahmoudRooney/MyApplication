@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.egypt2.myapplication.MainActivity">
+
+    <RelativeLayout     xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+/* sign in text  */
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="2000dp"
+            android:layout_centerHorizontal="true"
+            android:text="Sign In"
+            android:textColor="#40C4FF"
+            android:textSize="50sp" />
+    </RelativeLayout>
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_weight="8"
+        android:layout_height="0dp"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical"
+        >
+        //e.mail  ..>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_height="50dp"
+
+        android:background="#ECEFF1"
+        android:hint="   UserName....."
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+        //password ......>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:layout_marginBottom="40dp"
+        android:background="#ECEFF1"
+        android:hint="   password....."
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="40dp"
+            android:orientation="horizontal">
+            // login button >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+            <Button
+                android:id="@+id/home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LogIn"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:background="#80D8FF"
+                android:onClick="home"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    //chack box >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="remember me"
+        android:textStyle="italic"
+        android:layout_marginLeft="20dp"
+        android:textColor="#40C4FF"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+
+
+
+
+
+
+    // forget pass >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    <TextView
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text=" Forget Password ?"
+        android:textStyle="italic"
+        android:textColor="#40C4FF"
+        android:textSize="26sp"
+        android:onClick="pass"
+        />
+
+
+</LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout     xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_weight="1.5"
+        android:layout_height="0dp">
+
+            //creat account >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+            <Button
+                android:id="@+id/signup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Creat An Account"
+                android:textColor="#FFFFFF"
+                android:background="#90A4AE"
+                android:onClick="click_signup"
+                >
+            </Button>
+    </RelativeLayout>
+
+ </LinearLayout>

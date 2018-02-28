@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.egypt2.myapplication.books">
+    <LinearLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:layout_weight="0"
+    >
+</LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="230dp"
+    android:layout_weight="0"
+    android:orientation="vertical">
+
+    // profile picture >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="100dp"
+        android:scaleType="center"
+        android:src="@drawable/ima">
+
+    </ImageView>
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:layout_weight="0"
+    android:orientation="vertical">
+
+    // useR name >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UserName...."
+        android:textSize="20sp"
+        android:layout_marginLeft="100dp"
+        android:textStyle="italic|bold"
+        android:layout_marginTop="15dp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        // massage box >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Message"
+            android:textStyle="bold|italic"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="15dp"
+            android:background="#EF5350"
+            />
+        // information box >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AboutME"
+            android:layout_marginLeft="70dp"
+            android:textColor="#000000"
+            android:textSize="24dp"
+            android:layout_marginTop="15dp"
+            android:background="#B2EBF2"
+            android:textStyle="italic|bold"
+            android:padding="7dp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_menu_manage"
+            tools:layout_editor_absoluteX="42dp"
+            tools:layout_editor_absoluteY="324dp"
+            android:background="#ECEFF1"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:id="@+id/setting2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile "
+            android:textStyle="bold|italic"
+            android:textSize="24dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#B0BEC5"
+            android:layout_marginLeft="10dp"
+            android:onClick="setting2"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_weight="0"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        // text >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+        <TextView
+            android:id="@+id/books2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Books"
+            android:textSize="24dp"
+            android:layout_marginLeft="25dp"
+            android:onClick="books2"
+            />
+        // followers >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+        <TextView
+            android:id="@+id/followers2"
+            android:onClick="followers2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Followers"
+            android:textSize="24dp"
+            android:layout_marginLeft="25dp"
+            />
+        //activity >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+        <TextView
+        android:id="@+id/activity2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activities"
+        android:textSize="24dp"
+        android:layout_marginLeft="25dp"
+        android:onClick="activity2"
+        />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:scaleType="center"
+            android:src="@drawable/b">
+
+        </ImageView>    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:scaleType="center"
+        android:src="@drawable/b">
+
+    </ImageView>    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:scaleType="center"
+        android:src="@drawable/b">
+
+    </ImageView>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>
+</ScrollView>

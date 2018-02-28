@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.egypt2.myapplication.sign_up">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        // sign up text >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="2000dp"
+        android:layout_centerHorizontal="true"
+        android:text="Sign Up"
+        android:textColor="#40C4FF"
+        android:textSize="35sp" />
+        >
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical"
+        >
+        // text only >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:text="Enter your personal details below ..."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.258"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+
+            />
+        <EditText
+            android:layout_width="309dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="16dp"
+            android:background="#CFD8DC"
+            android:hint="    Enter full name...."
+            android:inputType="textPersonName"
+            android:layout_marginLeft="10dp"
+            />
+        // name box >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="309dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="16dp"
+            android:background="#CFD8DC"
+            android:hint="    User name...."
+            android:inputType="textPersonName"
+            android:layout_marginLeft="10dp"
+            />
+// e-mail box >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+        <EditText
+            android:id="@+id/editText3"
+
+
+            android:background="#CFD8DC"
+            android:hint="   E-mail..."
+            android:inputType="textEmailAddress"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="309dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+// pass box >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="309dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#CFD8DC"
+            android:hint="  Password...."
+            android:inputType="textPassword"
+          />
+// re pass box >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="309dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#CFD8DC"
+            android:hint="   Re-type your password..."
+            android:inputType="textPassword"
+            android:layout_marginBottom="10dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        >
+
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="#FFFFFF"
+            android:onClick="back"
+            android:text="Back"
+
+    />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:background="#A7FFEB"
+            android:onClick="submit"
+            android:text="Submit"
+       />
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
