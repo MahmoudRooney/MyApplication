@@ -33,10 +33,7 @@ public class my_profile extends AppCompatActivity {
         startActivity(intent);
 
     }
-    public void books22(View view) {
-        Intent intent = new Intent(my_profile.this, books_post.class);
+    public void  books22 (View view) {
+        Intent intent = new Intent(my_profile.this, post.class);
         startActivity(intent);
-
-    }
-
-}
+}}

@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void pass(View view) {
-        Intent intent = new Intent(MainActivity.this, rest_password.class);
+        Intent intent = new Intent(MainActivity.this, rest_pass.class);
         startActivity(intent);
     }
 
