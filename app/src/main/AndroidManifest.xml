@@ -25,7 +25,8 @@
         <activity android:name=".activity" />
         <activity android:name=".setting" />
         <activity android:name=".rest_pass" />
-        <activity android:name=".parsonal"></activity>
+        <activity android:name=".parsonal" />
+        <activity android:name=".books_post"></activity>
     </application>
 
 </manifest>

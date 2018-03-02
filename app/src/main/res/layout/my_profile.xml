@@ -168,47 +168,15 @@
     android:layout_marginLeft="10dp">
 
     <ImageView
+        android:id="@+id/book22"
         android:layout_width="200dp"
         android:layout_height="300dp"
         android:scaleType="center"
-        android:src="@drawable/a">
+        android:src="@drawable/a"
+        android:onClick="books22">
 
     </ImageView>
-    <ImageView
-        android:layout_width="200dp"
-        android:layout_height="300dp"
-        android:scaleType="center"
-        android:src="@drawable/b">
 
-    </ImageView>
-    <ImageView
-        android:layout_width="200dp"
-        android:layout_height="300dp"
-        android:scaleType="center"
-        android:src="@drawable/a">
-
-    </ImageView>
-    <ImageView
-        android:layout_width="200dp"
-        android:layout_height="300dp"
-        android:scaleType="center"
-        android:src="@drawable/b">
-
-    </ImageView>
-    <ImageView
-        android:layout_width="200dp"
-        android:layout_height="300dp"
-        android:scaleType="center"
-        android:src="@drawable/a">
-
-    </ImageView>
-    <ImageView
-        android:layout_width="200dp"
-        android:layout_height="300dp"
-        android:scaleType="center"
-        android:src="@drawable/b">
-
-    </ImageView>
 
 
 </LinearLayout>
