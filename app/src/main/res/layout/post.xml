@@ -92,7 +92,7 @@
             android:layout_weight="0">
             <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
@@ -105,7 +105,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textColor="#000000"
-                        android:text="descreption of this book"
+                        android:text="descreption of thIS book"
                         android:textSize="18sp"
                         />
                 </LinearLayout>
@@ -188,6 +188,103 @@
                 android:background="#80D8FF"
                 />
         </LinearLayout>
+<LinearLayout
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recommended for you"
+        android:textStyle="italic|bold"
+        android:textSize="18sp"
+        android:textColor="#000000"/>
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFEBEE">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ima"
+                android:layout_marginLeft="10dp"
+                >
+
+            </ImageView>           <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ima"
+            android:layout_marginLeft="10dp"
+            >
+
+        </ImageView>
+
+            <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ima"
+            android:layout_marginLeft="10dp"
+            >
+
+        </ImageView>
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ima"
+                android:layout_marginLeft="10dp"
+                >
+
+            </ImageView>        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ima"
+            android:layout_marginLeft="10dp"
+            >
+
+        </ImageView>        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ima"
+            android:layout_marginLeft="10dp"
+            >
+
+        </ImageView>        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ima"
+            android:layout_marginLeft="10dp"
+            >
+
+        </ImageView>
+
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ima"
+                android:layout_marginLeft="10dp"
+                >
+
+            </ImageView>
+        </LinearLayout>
+
+    </HorizontalScrollView>
+</LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
