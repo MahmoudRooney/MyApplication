@@ -5,11 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.egypt2.myapplication.post">
+    /* the big layout to make the page >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-
+        /* layout to display the photo of the book >>>>>>>>>>>>>>>> Book Photo>>>>>>>>>>>> */
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="230dp"
@@ -26,6 +27,7 @@
                 android:layout_weight="1">
 
             </ImageView>
+            /* text view to display the name of book >>>>>>>>>>Name Of Book>>>>>>>>>>>>> */
             <TextView
                 android:layout_weight="0"
                 android:layout_width="wrap_content"
@@ -39,7 +41,7 @@
 
         </LinearLayout>
 
-
+        /*  the other layout to display the rate and discription of book*/
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="60dp"
@@ -48,7 +50,7 @@
             android:layout_marginTop="10dp">
 
 
-
+            /* rate of book and star >>>>>>>>>>>>>>>>> Rate part>>>>>>>>> */
 
             <TextView
                 android:layout_width="wrap_content"
@@ -85,6 +87,7 @@
             app:srcCompat="@android:drawable/btn_star_big_off" />
 
         </LinearLayout>
+        /* the discription of the book >>>>>>>>>> Date of book >>>>>>>>>>>>>>> */
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="150dp"
@@ -113,7 +116,8 @@
 
             </ScrollView>
         </LinearLayout>
-
+        /* end of data>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+        /* entar your rate >>>>>>>>>>>>>>>>>> User rate >>>>>>>>>>>>>>>> */
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -166,7 +170,7 @@
 
 
             </LinearLayout>
-
+            /* the comment of user >>>>>>>>>>>>>>>>>>>>>>> Comment */
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -179,6 +183,7 @@
                 android:layout_height="wrap_content"
                 android:hint="enter your comment"
                 />
+            /* button to add the rate and comment >>>>>>>>>>>>>>> Save Button >>>>>>>*/
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -188,6 +193,7 @@
                 android:background="#80D8FF"
                 />
         </LinearLayout>
+        /* recommend slide >>>>>>>>>>>>>>>>>>>>>>>>>>Recomended Slide>>>>>>>>>>>>>>*/
 <LinearLayout
     android:layout_marginTop="20dp"
     android:layout_width="match_parent"
@@ -285,7 +291,7 @@
 
     </HorizontalScrollView>
 </LinearLayout>
-
+        /* saving commentes */
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
