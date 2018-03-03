@@ -16,8 +16,12 @@ public class post extends AppCompatActivity {
 
         rb = (RatingBar) findViewById(R.id.rate_of_book);
         ru = (RatingBar) findViewById(R.id.rate_of_user);
-
+        ru.setOnRatingBarChangeListener(new RatingBar.OnRatingBarChangeListener() {
+            @Override
+            public void onRatingChanged(RatingBar ratingBar, float v, boolean b) {
+                rb.setRating(ru.getRating());
             }
-
+        });
+    }
 
 }
