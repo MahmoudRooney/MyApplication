@@ -27,7 +27,7 @@ public class rest_password extends AppCompatActivity {
         startActivity(intent);
 
     }   public void back2(View view) {
-        Intent intent = new Intent(rest_password.this, my_profile.class);
+        Intent intent = new Intent(rest_password.this,activity.class);
         startActivity(intent);
     }   public void change2(View view) {
         Intent intent = new Intent(rest_password.this, my_profile.class);

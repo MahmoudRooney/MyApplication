@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 
 public class my_profile extends AppCompatActivity {
 
@@ -11,6 +12,7 @@ public class my_profile extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.my_profile);
+
     }
 
     public void books5(View view) {
@@ -33,7 +35,8 @@ public class my_profile extends AppCompatActivity {
         startActivity(intent);
 
     }
-    public void  books22 (View view) {
+    public void  book22 (View view) {
         Intent intent = new Intent(my_profile.this, post.class);
         startActivity(intent);
-}}
+}
+}
